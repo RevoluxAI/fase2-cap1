@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="MODELO DADOS  PROJETO" id="616D15E1-7DBE-CDEA-828B-4416A3191DE8" version="3.5">
+<createdBy>MoisésdeLimaCavalcan</createdBy>
+<createdTime>2025-04-15 20:02:53 UTC</createdTime>
+<ownerDesignName>MODELO DADOS  PROJETO</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>616D15E1-7DBE-CDEA-828B-4416A3191DE8</designId>
+</OSDM_Design>
