@@ -79,4 +79,5 @@ A modelagem foi feita com base em dados coletados por sensores e registros de ap
 📦 projeto-farmtech
  ┣ 📄 modelo.dmd
  ┣ 📄 modelo.png
+ ┣ 📄 SCRIPT_DDL_PROJETO_SENSOR.SQL
  ┣ 📄 README.md
