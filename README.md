@@ -11,7 +11,7 @@ A modelagem foi feita com base em dados coletados por sensores e registros de ap
 ## 📌 Objetivos do Sistema
 
 - Armazenar leituras de sensores de umidade, pH e nutrientes (NPK)
-- Registrar aplicações de recursos como água, fósforo e potássio
+- Registrar aplicações de recursos como água, nitrogênio, fósforo e potássio
 - Relacionar plantações com diferentes culturas ao longo do tempo
 - Permitir análises históricas das condições e intervenções nas plantações
 
