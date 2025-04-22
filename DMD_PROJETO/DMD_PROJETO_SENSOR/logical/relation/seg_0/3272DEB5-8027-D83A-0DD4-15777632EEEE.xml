@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TIPOv2" directorySegmentName="seg_0" id="3272DEB5-8027-D83A-0DD4-15777632EEEE">
+<createdBy>MoisésdeLimaCavalcan</createdBy>
+<createdTime>2025-04-22 06:34:56 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="CFEE3659-C120-38C2-E7FE-FCC80279983B" value="true"/>
+</engineerTo>
+<sourcePk>A0B02875-1C6D-E079-9467-C217F9C98948</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>10E752F1-A494-913B-1512-EC899D9180E8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DEE2376D-DBE4-4DCF-BF70-4F387AE5F173</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

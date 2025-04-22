@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5289E1D6-FFF8-10F3-EB33-D14F76DC3F30" containerWithKeyObject="BACC27F8-A27A-243E-E3CC-01AA2543E54D" localFKIndex="FBA3B5BC-25F8-02BC-6FDA-374348036A3A" name="FK_LEIT_SENS">
+<createdBy>MoisésdeLimaCavalcan</createdBy>
+<createdTime>2025-04-22 12:40:29 UTC</createdTime>
+<generatorID>A0700493-9123-BCED-C57C-001B2B58CF03</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<referredTableLongName>TB_SENSOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>146ADAD9-23E4-59D3-D0A0-83ED23131D38</referredTableID>
+<keyObject>81EDC0AD-AA6D-F3CE-E3C9-A5BF9D4A8A6A</keyObject>
+<referredKeyID>81EDC0AD-AA6D-F3CE-E3C9-A5BF9D4A8A6A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SENS_PK_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

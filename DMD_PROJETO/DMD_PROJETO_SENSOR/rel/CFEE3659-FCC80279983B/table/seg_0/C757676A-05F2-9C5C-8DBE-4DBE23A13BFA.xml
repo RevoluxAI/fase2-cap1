@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C757676A-05F2-9C5C-8DBE-4DBE23A13BFA" name="TB_CULTURA">
+<createdBy>MoisésdeLimaCavalcan</createdBy>
+<createdTime>2025-04-22 12:40:29 UTC</createdTime>
+<generatorID>6911CA8B-B211-ACF1-B70E-F727374D203A</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CULT_PK_ID" id="9405928B-5680-5BE1-11A4-33BBAFCE3CCC">
+<createdBy>MoisésdeLimaCavalcan</createdBy>
+<createdTime>2025-04-22 12:40:29 UTC</createdTime>
+<generatorID>DCE9026D-5718-14F5-D232-5B0D03FB584C</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CULT_NOME" id="7627ACA8-4CFF-7EFC-5688-2BD965576D5E">
+<createdBy>MoisésdeLimaCavalcan</createdBy>
+<createdTime>2025-04-22 12:40:29 UTC</createdTime>
+<generatorID>9C71B788-416F-1D72-46F6-2F705A935799</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CULT_TIPO" id="9F386B24-9BEF-4D6C-4B69-8376E3544404">
+<createdBy>MoisésdeLimaCavalcan</createdBy>
+<createdTime>2025-04-22 12:40:29 UTC</createdTime>
+<generatorID>EC586332-3DF0-E4D0-4C64-BE85081A2459</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0623BF38-A1E5-0400-9C63-FA330539887D" name="PK_TB_CULTURA">
+<createdBy>MoisésdeLimaCavalcan</createdBy>
+<createdTime>2025-04-22 12:40:29 UTC</createdTime>
+<generatorID>3BA4E32A-2029-E8EE-AD71-DD7A09FA5BAE</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9405928B-5680-5BE1-11A4-33BBAFCE3CCC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

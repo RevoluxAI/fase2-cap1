@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PLANTAR" directorySegmentName="seg_0" id="B15F7B98-E357-2097-24DE-DDA5FF9ED184">
+<createdBy>MoisésdeLimaCavalcan</createdBy>
+<createdTime>2025-04-22 06:30:08 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="CFEE3659-C120-38C2-E7FE-FCC80279983B" value="true"/>
+</engineerTo>
+<sourcePk>3BA4E32A-2029-E8EE-AD71-DD7A09FA5BAE</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6911CA8B-B211-ACF1-B70E-F727374D203A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D5BD58BC-15EB-013A-6267-A3B87EC0440F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

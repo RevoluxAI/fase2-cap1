@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FCCA412E-DD94-D183-3E93-6DB86F9F7F08" name="TB_PREVISAO">
+<createdBy>MoisésdeLimaCavalcan</createdBy>
+<createdTime>2025-04-22 12:40:29 UTC</createdTime>
+<generatorID>F74ED45E-6E58-8312-B2D2-F6746038B386</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<ordsAlias>previsao</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PREV_PK_ID" id="33C54641-F4B2-B480-D994-174EF9B7EBDC">
+<createdBy>MoisésdeLimaCavalcan</createdBy>
+<createdTime>2025-04-22 12:40:29 UTC</createdTime>
+<generatorID>62C12880-2A54-0D03-31F5-CC44C516D1F3</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_PLANTACAO_PLANT_PK_ID" id="E101CB57-4F10-1BDD-4788-C7B161C2D15A">
+<createdBy>MoisésdeLimaCavalcan</createdBy>
+<createdTime>2025-04-22 12:40:29 UTC</createdTime>
+<generatorID>4D74ACA4-1D25-B804-6C9F-1BA329336867</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="405BB43D-8B24-4D99-3466-B782CE3E2B1D" referredColumn="4526747C-8FB8-D1A4-63FE-781D5123406A"/>
+</associations>
+</Column>
+<Column name="PREV_DATA_HORA" id="3AFF6606-465C-FCE2-1AD0-993A0137FE6C">
+<createdBy>MoisésdeLimaCavalcan</createdBy>
+<createdTime>2025-04-22 12:40:29 UTC</createdTime>
+<generatorID>55720567-CCBF-B0EB-C445-24DC4ACD359C</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PREV_TIPO_RECURSO" id="3B5B5AFB-08E8-D376-E3D7-FE6849189F5C">
+<createdBy>MoisésdeLimaCavalcan</createdBy>
+<createdTime>2025-04-22 12:40:29 UTC</createdTime>
+<generatorID>92BC4CCF-0767-DCE3-3DBE-3EEC1A5416FE</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PREV_QUANT_RECURSO" id="3B8E918E-A2B9-9D2E-0484-E3F2CD2CC163">
+<createdBy>MoisésdeLimaCavalcan</createdBy>
+<createdTime>2025-04-22 12:40:29 UTC</createdTime>
+<generatorID>C8F364DA-DD35-FFB1-1AEB-64591580BE82</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7FA65DA5-6BE9-7F37-2F82-50BAA89EF04A" name="PK_PREVISAO">
+<createdBy>MoisésdeLimaCavalcan</createdBy>
+<createdTime>2025-04-22 12:40:29 UTC</createdTime>
+<generatorID>8B41FAD0-F477-87FF-5F0C-7427D4464270</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33C54641-F4B2-B480-D994-174EF9B7EBDC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="74AD9BB4-4C99-00EE-60C1-5E1A703D5246" name="FK_PREV_PLANT">
+<createdBy>MoisésdeLimaCavalcan</createdBy>
+<createdTime>2025-04-22 12:40:29 UTC</createdTime>
+<generatorID>96117CCD-1BC3-4F69-ABF8-63DB7EEC60B6</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E101CB57-4F10-1BDD-4788-C7B161C2D15A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

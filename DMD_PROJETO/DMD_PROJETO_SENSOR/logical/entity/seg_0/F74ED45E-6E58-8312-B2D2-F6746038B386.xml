@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F74ED45E-6E58-8312-B2D2-F6746038B386" name="TB_PREVISAO">
+<createdBy>MoisésdeLimaCavalcan</createdBy>
+<createdTime>2025-04-22 05:38:37 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="CFEE3659-C120-38C2-E7FE-FCC80279983B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PREV_PK_ID" id="62C12880-2A54-0D03-31F5-CC44C516D1F3">
+<createdBy>MoisésdeLimaCavalcan</createdBy>
+<createdTime>2025-04-22 05:38:54 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="CFEE3659-C120-38C2-E7FE-FCC80279983B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PLANT_PK_ID" id="4D74ACA4-1D25-B804-6C9F-1BA329336867">
+<createdBy>MoisésdeLimaCavalcan</createdBy>
+<createdTime>2025-04-22 06:31:56 UTC</createdTime>
+<generatorID>96117CCD-1BC3-4F69-ABF8-63DB7EEC60B6</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="CFEE3659-C120-38C2-E7FE-FCC80279983B" value="true"/>
+</engineerTo>
+<referedAttribute>A8F9F994-2800-B4D1-0460-64CD9FD52004</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PREV_DATA_HORA" id="55720567-CCBF-B0EB-C445-24DC4ACD359C">
+<createdBy>MoisésdeLimaCavalcan</createdBy>
+<createdTime>2025-04-22 05:39:18 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="CFEE3659-C120-38C2-E7FE-FCC80279983B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PREV_TIPO_RECURSO" id="92BC4CCF-0767-DCE3-3DBE-3EEC1A5416FE">
+<createdBy>MoisésdeLimaCavalcan</createdBy>
+<createdTime>2025-04-22 05:49:04 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="CFEE3659-C120-38C2-E7FE-FCC80279983B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PREV_QUANT_RECURSO" id="C8F364DA-DD35-FFB1-1AEB-64591580BE82">
+<createdBy>MoisésdeLimaCavalcan</createdBy>
+<createdTime>2025-04-22 05:49:44 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="CFEE3659-C120-38C2-E7FE-FCC80279983B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8B41FAD0-F477-87FF-5F0C-7427D4464270" name="PREVISAO PK">
+<createdBy>MoisésdeLimaCavalcan</createdBy>
+<createdTime>2025-04-22 05:39:25 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="CFEE3659-C120-38C2-E7FE-FCC80279983B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>62C12880-2A54-0D03-31F5-CC44C516D1F3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

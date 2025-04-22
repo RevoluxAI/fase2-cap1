@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8B3E9247-6754-07A5-19E8-F59EFB5F88FD" name="TB_APLICACAO">
+<createdBy>MoisésdeLimaCavalcan</createdBy>
+<createdTime>2025-04-15 20:51:26 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="CFEE3659-C120-38C2-E7FE-FCC80279983B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PLANT_PK_ID" id="791CD3D5-1EE9-0FD8-697D-7F9F1169F795">
+<createdBy>MoisésdeLimaCavalcan</createdBy>
+<createdTime>2025-04-22 06:32:41 UTC</createdTime>
+<generatorID>D432165F-F49A-D14E-9697-5B42D2BA4DB9</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="CFEE3659-C120-38C2-E7FE-FCC80279983B" value="true"/>
+</engineerTo>
+<referedAttribute>A8F9F994-2800-B4D1-0460-64CD9FD52004</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APLIC_PK_ID" id="E476CB9E-F757-8471-6B1C-BA437A84E23A">
+<createdBy>MoisésdeLimaCavalcan</createdBy>
+<createdTime>2025-04-15 20:52:05 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="CFEE3659-C120-38C2-E7FE-FCC80279983B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APLIC_DATA_HORA" id="02D4E600-3583-FDE4-3E9C-0D7F6AB375C0">
+<createdBy>MoisésdeLimaCavalcan</createdBy>
+<createdTime>2025-04-15 20:53:39 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="CFEE3659-C120-38C2-E7FE-FCC80279983B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APLIC_TIPO_RECUSO" id="2B626A05-ECC8-79BD-7828-4B80E206D6B0">
+<createdBy>MoisésdeLimaCavalcan</createdBy>
+<createdTime>2025-04-15 20:54:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[Água, Fósforo, Potássio, etc.]]></commentInRDBMS>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="CFEE3659-C120-38C2-E7FE-FCC80279983B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APLIC_QUANTIDADE" id="A3793545-DC2C-A1F8-7878-76F77B79E14D">
+<createdBy>MoisésdeLimaCavalcan</createdBy>
+<createdTime>2025-04-15 20:55:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[litros, kg, etc]]></commentInRDBMS>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="CFEE3659-C120-38C2-E7FE-FCC80279983B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APLIC_DESCRICAO" id="DAA4F7F4-A7C1-4664-F23D-1A7C2F0D2A86">
+<createdBy>MoisésdeLimaCavalcan</createdBy>
+<createdTime>2025-04-22 05:13:13 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="CFEE3659-C120-38C2-E7FE-FCC80279983B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BDC87F49-6583-1E6B-5F56-A4274EBF454C" name="Aplicacao_Recurso PK">
+<createdBy>MoisésdeLimaCavalcan</createdBy>
+<createdTime>2025-04-15 20:52:07 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="CFEE3659-C120-38C2-E7FE-FCC80279983B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E476CB9E-F757-8471-6B1C-BA437A84E23A</attributeRef>
+<attributeRef>791CD3D5-1EE9-0FD8-697D-7F9F1169F795</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5B92B223-E6D8-E405-C4DC-4C95CEF0378B" name="TB_APLICACAO">
+<createdBy>MoisésdeLimaCavalcan</createdBy>
+<createdTime>2025-04-22 12:40:29 UTC</createdTime>
+<generatorID>8B3E9247-6754-07A5-19E8-F59EFB5F88FD</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TB_PLANTACAO_PLANT_PK_ID" id="EDBA19B8-92AE-6E4E-B507-C57DCD229C02">
+<createdBy>MoisésdeLimaCavalcan</createdBy>
+<createdTime>2025-04-22 12:40:29 UTC</createdTime>
+<generatorID>791CD3D5-1EE9-0FD8-697D-7F9F1169F795</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C7589FEC-7796-957B-D789-E16DE620F277" referredColumn="4526747C-8FB8-D1A4-63FE-781D5123406A"/>
+</associations>
+</Column>
+<Column name="APLIC_PK_ID" id="3E381934-C740-1B18-FBC9-01DB15F74415">
+<createdBy>MoisésdeLimaCavalcan</createdBy>
+<createdTime>2025-04-22 12:40:29 UTC</createdTime>
+<generatorID>E476CB9E-F757-8471-6B1C-BA437A84E23A</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APLIC_DATA_HORA" id="F33984E9-CAF9-E47D-1C35-B5E4C8A336F6">
+<createdBy>MoisésdeLimaCavalcan</createdBy>
+<createdTime>2025-04-22 12:40:29 UTC</createdTime>
+<generatorID>02D4E600-3583-FDE4-3E9C-0D7F6AB375C0</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APLIC_TIPO_RECUSO" id="09D32211-292E-6A62-F98A-477B1D5101CA">
+<createdBy>MoisésdeLimaCavalcan</createdBy>
+<createdTime>2025-04-22 12:40:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[Água, Fósforo, Potássio, etc.]]></commentInRDBMS>
+<generatorID>2B626A05-ECC8-79BD-7828-4B80E206D6B0</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APLIC_QUANTIDADE" id="5A9A6B7E-AD43-C224-B7DE-38EDC4ADA6F8">
+<createdBy>MoisésdeLimaCavalcan</createdBy>
+<createdTime>2025-04-22 12:40:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[litros, kg, etc]]></commentInRDBMS>
+<generatorID>A3793545-DC2C-A1F8-7878-76F77B79E14D</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APLIC_DESCRICAO" id="96A0A766-9023-59D2-12F5-189838E1479A">
+<createdBy>MoisésdeLimaCavalcan</createdBy>
+<createdTime>2025-04-22 12:40:29 UTC</createdTime>
+<generatorID>DAA4F7F4-A7C1-4664-F23D-1A7C2F0D2A86</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4338FB18-EC6E-E3E4-09B1-1F320F6A29FF" name="PK_TB_APLICACAO">
+<createdBy>MoisésdeLimaCavalcan</createdBy>
+<createdTime>2025-04-22 12:40:29 UTC</createdTime>
+<generatorID>BDC87F49-6583-1E6B-5F56-A4274EBF454C</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E381934-C740-1B18-FBC9-01DB15F74415"/>
+<colUsage columnID="EDBA19B8-92AE-6E4E-B507-C57DCD229C02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F4BAFC1B-BD05-9255-40FC-E58EDDA728C2" name="FK_APLIC_PLANTA">
+<createdBy>MoisésdeLimaCavalcan</createdBy>
+<createdTime>2025-04-22 12:40:29 UTC</createdTime>
+<generatorID>D432165F-F49A-D14E-9697-5B42D2BA4DB9</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDBA19B8-92AE-6E4E-B507-C57DCD229C02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -77,7 +77,9 @@ A modelagem foi feita com base em dados coletados por sensores e registros de ap
 
 ```bash
 📦 projeto-farmtech
- ┣ 📄 modelo.dmd
- ┣ 📄 modelo.png
+ ┣ 📂 DMD_PROJETO
+    ┣ 📂 DMD_PROJETO_SENSOR
+    ┣ 📄 DMD_PROJETO_SENSOR.DMD
+ ┣ 📄 PROJETO_SENSOR.png
  ┣ 📄 SCRIPT_DDL_PROJETO_SENSOR.SQL
  ┣ 📄 README.md

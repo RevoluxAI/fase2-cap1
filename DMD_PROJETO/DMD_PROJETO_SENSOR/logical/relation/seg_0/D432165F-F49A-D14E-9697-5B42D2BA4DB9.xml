@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="APLICAR" directorySegmentName="seg_0" id="D432165F-F49A-D14E-9697-5B42D2BA4DB9">
+<createdBy>MoisésdeLimaCavalcan</createdBy>
+<createdTime>2025-04-22 06:32:41 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="CFEE3659-C120-38C2-E7FE-FCC80279983B" value="true"/>
+</engineerTo>
+<sourcePk>71D399F7-28F2-C236-D6F6-497734024249</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D5BD58BC-15EB-013A-6267-A3B87EC0440F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8B3E9247-6754-07A5-19E8-F59EFB5F88FD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

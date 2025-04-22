@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C7589FEC-7796-957B-D789-E16DE620F277" containerWithKeyObject="5B92B223-E6D8-E405-C4DC-4C95CEF0378B" localFKIndex="F4BAFC1B-BD05-9255-40FC-E58EDDA728C2" name="FK_APLIC_PLANTA">
+<createdBy>MoisésdeLimaCavalcan</createdBy>
+<createdTime>2025-04-22 12:40:29 UTC</createdTime>
+<generatorID>D432165F-F49A-D14E-9697-5B42D2BA4DB9</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<referredTableLongName>TB_PLANTACAO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>18E19F1E-9BA8-641B-AE6B-F5AE80B6B61E</referredTableID>
+<keyObject>439DE40A-352B-C32C-423E-44BCD1C0D9AD</keyObject>
+<referredKeyID>439DE40A-352B-C32C-423E-44BCD1C0D9AD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PLANT_PK_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

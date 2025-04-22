@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BACC27F8-A27A-243E-E3CC-01AA2543E54D" name="TB_LEITURA">
+<createdBy>MoisésdeLimaCavalcan</createdBy>
+<createdTime>2025-04-22 12:40:29 UTC</createdTime>
+<generatorID>D5AC6B58-F36C-E4E3-0C2B-54909F50F354</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PLANT_PK_ID" id="89FABDDC-1809-D346-B6B2-1A1AA9D027C4">
+<createdBy>MoisésdeLimaCavalcan</createdBy>
+<createdTime>2025-04-22 12:40:29 UTC</createdTime>
+<generatorID>7FF56764-55EC-FD54-AF57-29F8CC192C30</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DE28CBD2-C842-7D04-7C6F-B2EDB359700E" referredColumn="4526747C-8FB8-D1A4-63FE-781D5123406A"/>
+</associations>
+</Column>
+<Column name="LEIT_PK_ID" id="D959D5A0-E353-15FA-8605-084C8E255F82">
+<createdBy>MoisésdeLimaCavalcan</createdBy>
+<createdTime>2025-04-22 12:40:29 UTC</createdTime>
+<generatorID>3FACA1A8-B7DE-2A25-A029-B843058813F3</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SENS_PK_ID" id="6A84CC6B-4F68-D318-4D6D-DC1278BCB805">
+<createdBy>MoisésdeLimaCavalcan</createdBy>
+<createdTime>2025-04-22 12:40:29 UTC</createdTime>
+<generatorID>CEEB840D-B31B-27A8-EB8F-EF0102E21FC7</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5289E1D6-FFF8-10F3-EB33-D14F76DC3F30" referredColumn="058088D7-3978-8B8E-5FFA-76F3AEAFB237"/>
+</associations>
+</Column>
+<Column name="LEIT_VALOR_LIDO" id="609B3D21-C326-3990-9ABE-AA4BF39F3DE1">
+<createdBy>MoisésdeLimaCavalcan</createdBy>
+<createdTime>2025-04-22 12:40:29 UTC</createdTime>
+<generatorID>3BE51085-D60A-C76D-DE63-C9B84C3332CE</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LEIT_DATA_HORA" id="62AD835A-ECDE-FFF3-2D56-CD3D7CFE3B1C">
+<createdBy>MoisésdeLimaCavalcan</createdBy>
+<createdTime>2025-04-22 12:40:29 UTC</createdTime>
+<generatorID>BBF6F8E4-A79C-EDA4-804A-550FD20C991A</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7C51010B-D7B6-9720-8901-F213B566A493" name="PK_TB_LEITURA">
+<createdBy>MoisésdeLimaCavalcan</createdBy>
+<createdTime>2025-04-22 12:40:29 UTC</createdTime>
+<generatorID>6B60DAE9-2FCF-6280-8122-DF0F8F5F186B</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D959D5A0-E353-15FA-8605-084C8E255F82"/>
+<colUsage columnID="89FABDDC-1809-D346-B6B2-1A1AA9D027C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B1452D1D-5816-E7B4-A6B5-85AA74021E08" name="FK_LEIT_PLANT">
+<createdBy>MoisésdeLimaCavalcan</createdBy>
+<createdTime>2025-04-22 12:40:29 UTC</createdTime>
+<generatorID>6800B13B-E043-688E-E20C-99935D7C553E</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89FABDDC-1809-D346-B6B2-1A1AA9D027C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FBA3B5BC-25F8-02BC-6FDA-374348036A3A" name="FK_LEIT_SENS">
+<createdBy>MoisésdeLimaCavalcan</createdBy>
+<createdTime>2025-04-22 12:40:29 UTC</createdTime>
+<generatorID>A0700493-9123-BCED-C57C-001B2B58CF03</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A84CC6B-4F68-D318-4D6D-DC1278BCB805"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
