@@ -3,7 +3,7 @@
 <createdBy>MoisésdeLimaCavalcan</createdBy>
 <createdTime>2025-04-22 12:40:29 UTC</createdTime>
 <generatorID>D5BD58BC-15EB-013A-6267-A3B87EC0440F</generatorID>
-<ownerDesignName>modelo</ownerDesignName>
+<ownerDesignName>DMD_PROJETO_SENSOR</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -12,18 +12,18 @@
 <createdBy>MoisésdeLimaCavalcan</createdBy>
 <createdTime>2025-04-22 12:40:29 UTC</createdTime>
 <generatorID>A8F9F994-2800-B4D1-0460-64CD9FD52004</generatorID>
-<ownerDesignName>modelo</ownerDesignName>
+<ownerDesignName>DMD_PROJETO_SENSOR</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="TB_CULTURA_CULT_PK_ID" id="BC5B8004-77C9-2DD6-2EFC-850AA88C4CB7">
+<Column name="CULT_PK_ID" id="BC5B8004-77C9-2DD6-2EFC-850AA88C4CB7">
 <createdBy>MoisésdeLimaCavalcan</createdBy>
 <createdTime>2025-04-22 12:40:29 UTC</createdTime>
 <generatorID>9AB4FC09-9DC0-10C1-61CD-47D577A0861F</generatorID>
-<ownerDesignName>modelo</ownerDesignName>
+<ownerDesignName>DMD_PROJETO_SENSOR</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -38,7 +38,7 @@
 <createdBy>MoisésdeLimaCavalcan</createdBy>
 <createdTime>2025-04-22 12:40:29 UTC</createdTime>
 <generatorID>89BF110C-8CB5-B277-37D6-ED34E143F8E5</generatorID>
-<ownerDesignName>modelo</ownerDesignName>
+<ownerDesignName>DMD_PROJETO_SENSOR</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -50,7 +50,7 @@
 <createdBy>MoisésdeLimaCavalcan</createdBy>
 <createdTime>2025-04-22 12:40:29 UTC</createdTime>
 <generatorID>629D12F6-857A-69DB-14A7-3A2548A19C07</generatorID>
-<ownerDesignName>modelo</ownerDesignName>
+<ownerDesignName>DMD_PROJETO_SENSOR</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT020</logicalDatatype>
@@ -61,7 +61,7 @@
 <createdBy>MoisésdeLimaCavalcan</createdBy>
 <createdTime>2025-04-22 12:40:29 UTC</createdTime>
 <generatorID>CF27F165-AF48-86A7-5297-2BE943423961</generatorID>
-<ownerDesignName>modelo</ownerDesignName>
+<ownerDesignName>DMD_PROJETO_SENSOR</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -73,7 +73,7 @@
 <createdBy>MoisésdeLimaCavalcan</createdBy>
 <createdTime>2025-04-22 12:40:29 UTC</createdTime>
 <generatorID>FA536432-019A-5726-8653-028C85188904</generatorID>
-<ownerDesignName>modelo</ownerDesignName>
+<ownerDesignName>DMD_PROJETO_SENSOR</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -87,7 +87,7 @@
 <createdBy>MoisésdeLimaCavalcan</createdBy>
 <createdTime>2025-04-22 12:40:29 UTC</createdTime>
 <generatorID>71D399F7-28F2-C236-D6F6-497734024249</generatorID>
-<ownerDesignName>modelo</ownerDesignName>
+<ownerDesignName>DMD_PROJETO_SENSOR</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
@@ -99,7 +99,7 @@
 <createdBy>MoisésdeLimaCavalcan</createdBy>
 <createdTime>2025-04-22 12:40:29 UTC</createdTime>
 <generatorID>B15F7B98-E357-2097-24DE-DDA5FF9ED184</generatorID>
-<ownerDesignName>modelo</ownerDesignName>
+<ownerDesignName>DMD_PROJETO_SENSOR</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>

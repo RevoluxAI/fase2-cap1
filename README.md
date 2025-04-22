@@ -19,57 +19,68 @@ A modelagem foi feita com base em dados coletados por sensores e registros de ap
 
 ## 🧱 Entidades e Atributos (MER)
 
-### 1. `SENSOR`
-- `id_sensor` (PK) – Identificador do sensor – `INTEGER`
-- `tipo_sensor` – Tipo (umidade, pH, nutrientes) – `VARCHAR(50)`
-- `modelo_sensor` – Modelo – `VARCHAR(50)`
-- `unidade_medida` – Unidade (%, mg/kg, etc.) – `VARCHAR(20)`
+### 1. `TB_TIPO_SENSOR`
+- `TP_SENS_PK_ID` (PK) – Identificador do tipo sensor – `INTEGER`
+- `TP_SENS_NOME` – Tipo (umidade, pH, nutrientes) – `VARCHAR(50)`
+- `TP_SENS_UNI_MEDIDA` – Unidade (%, mg/kg, etc.) – `VARCHAR(20)`
 
-### 2. `LEITURA_SENSOR`
-- `id_leitura` (PK) – Identificador da leitura – `INTEGER`
-- `id_sensor` (FK) – Sensor que fez a leitura – `INTEGER`
-- `id_plantacao` (FK) – Plantação medida – `INTEGER`
-- `valor_lido` – Valor numérico da medição – `NUMBER`
+### 2. `TB_SENSOR`
+- `SENS_PK_ID` (PK) – Identificador do sensor – `INTEGER`
+- `TP_SENS_PK_ID` (FK) –  Identificador do tipo sensor – `INTEGER`
+- `SENS_MODELO` – Modelo – `VARCHAR(50)`
 
-### 3. `PLANTACAO`
-- `id_plantacao` (PK) – Identificador único da plantação – `INTEGER`
-- `nome_plantacao` – Nome da plantação – `VARCHAR(50)`
-- `area_m2` – Área em metros quadrados – `NUMBER`
+### 3. `TB_LEITURA`
+- `PLANT_PK_ID` (PF) – Plantação medida – `INTEGER`
+- `LEIT_PK_ID` (PK) – Identificador da leitura – `INTEGER`
+- `SENS_PK_ID` (FK) – Sensor que fez a leitura – `INTEGER`
+- `LEIT_VALOR_LIDO` – Valor numérico da medição – `NUMBER`
+- `LEIT_DAT_HORA` – Data Hora da medida – `DATE`
 
-### 4. `APLICACAO_RECURSOS`
-- `id_aplicacao` (PK) – Identificador da aplicação – `INTEGER`
-- `id_plantacao` (FK) – Plantação que recebeu o recurso – `INTEGER`
-- `data_hora_aplicacao` – Data e hora – `DATE`
-- `tipo_recurso` – Tipo (água, fósforo, potássio...) – `VARCHAR(50)`
-- `quantidade` – Quantidade aplicada (litros, kg, etc.) – `NUMBER`
+### 4. `TB_PLANTACAO`
+- `PLANT_PK_ID` (PK) – Identificador único da plantação – `INTEGER`
+- `CULT_PK_ID` (FK) –Identificador da cultura – `INTEGER`
+- `PLANT_NOME` – Nome da plantação – `VARCHAR(50)`
+- `PLANT_AREA_M2` – Área em metros quadrados – `NUMBER`
+- `PLANT_DT_INICIO` – Data inicio  – `DATA`
+- `PLANT_DT_FINAL` – Data final – `DATA`
 
-### 5. `PLANTACAO_CULTURA` *(Associação N:N)*
-- `id_plantacao_cultura` (PK) – `INTEGER`
-- `id_plantacao` (FK) – `INTEGER`
-- `id_cultura` (FK) – `INTEGER`
-- `data_inicio` – Início do plantio – `DATE`
-- `data_final` – Final da cultura – `DATE`
+### 4. `TB_CULTURA`
+- `CULT_PK_ID` (PK) – Identificador da cultura – `INTEGER`
+- `CULT_NOME` – Nome da cultura (ex: milho, soja) – `VARCHAR(100)`
+- `CULT_TIPO` – Tipo (leguminosa, grão, etc.) – `VARCHAR(50)`
 
-### 6. `CULTURA`
-- `id_cultura` (PK) – Identificador da cultura – `INTEGER`
-- `nome_cultura` – Nome da cultura (ex: milho, soja) – `VARCHAR(100)`
-- `tipo_cultura` – Tipo (leguminosa, grão, etc.) – `VARCHAR(50)`
+### 5. `TB_APLICACAO`
+- `PLANT_PK_ID` (PF) – Plantação que recebeu o recurso – `INTEGER`
+- `APLIC_PK_ID` (PK) – Identificador da aplicação – `INTEGER`
+- `APLIC_DATA_HORA` – Data e hora – `DATE`
+- `APLIC_TIPO_RECURSO` – Tipo (água, fósforo, potássio...) – `VARCHAR(50)`
+- `APLIC_QUANTIDADE` – Quantidade aplicada (litros, kg, etc.) – `NUMBER`
+- `APLIC_DESCRICAO` – Descriçao da aplicação – `VARCHAR(100)`
+
+### 6. `TB_PREVISAO`
+- `PREV_PK_ID` (PK) – Identificador da aplicação – `INTEGER`
+- `PLANT_PK_ID` (FK) – Plantação que recebeu o recurso – `INTEGER`
+- `PREV_DATA_HORA` – Data hora da previsão – `DATA`
+- `PREV_TIPO_RECURSO` – Tipo de recurso – `VARCHAR(50)`
+- `PREV_QUANT_RECURSO` – Quantidade do recurso – `NUMBER`
 
 ---
 
 ## 🔄 Relacionamentos
 
-- **SENSOR → LEITURA_SENSOR**: 1:N
-- **PLANTACAO → LEITURA_SENSOR**: 1:N
-- **PLANTACAO → APLICACAO_RECURSOS**: 1:N
-- **PLANTACAO ↔ CULTURA**: N:N (via PLANTACAO_CULTURA)
+- **TB_TIPO_SENSOR → TB_SENSOR**: 1:N
+- **TB_SENSOR → TB_LEITURA**: 1:N
+- **TB_PLANTACAO → TB_LEITURA**: 1:N
+- **TB_PLANTACAO → TB_APLICACAO**: 1:N
+- **TB_PLANTACAO → TB_PREVISAO**: 1:N
+- **TB_CULTURA → TB_PLANTACAO**: 1:N 
 
 ---
 
 ## 🧩 DER (Diagrama Entidade Relacionamento)
 
 📷 Veja o diagrama completo em:  
-[`modelo.png`](./modelo.png)
+[`PROJETO_SENSOR.png`](./PROJETO_SENSOR.png)
 
 ---
 
